@@ -1,5 +1,11 @@
 # C++
 
-#### @Author; Sk
+## The Repository Contains All the Files associated with C++ Development.
 
-### The Repository Contains All the Files associated with C++ Develpment.
+
+> Note: All the work is proprietary, Do not use of any item/work without permission or concern.
+
+
+Thanks,
+
+### @Author; Sk
