@@ -16,4 +16,6 @@ int main(){
     //Floating Pointers
     std::cout <<"Size of float is: " <<sizeof(float) <<" Byte" <<std::endl;
     std::cout <<"Size of double is: " <<sizeof(double) <<" Byte" <<std::endl;
+    //Boolean
+    std::cout <<"Size of Boolean is: " <<sizeof(bool) <<" Byte" <<std::endl;    
 }
