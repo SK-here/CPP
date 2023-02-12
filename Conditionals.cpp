@@ -58,8 +58,21 @@ int main(){
         std::cout <<"\nThis is a Block 5";
     }
     else{
-        std::cout <<"\nThis is a else block of Block 5" <<'\n';
+        std::cout <<"\nThis is a else block of Block 5" ;
     }
-    
+//----------------------------------------    
+    if (x){
+        std::cout <<"\nThis is a X block before updation\n";
+    }
+    else{
+        std::cout <<"This is X's else\n";
+    }
+    x = 0; //Updating value of X
+    if (x){
+        std::cout <<"This is a X block" <<'\n';
+    }
+    else{
+        std::cout <<"This is X's else after updation\n";
+    }
     std::cin.get();
 }

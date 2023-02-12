@@ -2,7 +2,11 @@
 
 ## Branching in C++
 
-When a certain condition get's evaluated and based on that condition program performs a certain set of task or executes the certain set of statements such as function/method or another program during the execution of main program, In a branched manner the practices that applies the logic in programming is Known as Branching or Condtionals.
+When a certain condition get's evaluated and based on that condition program performs a certain set of task or executes the certain set of statements such as function/method or another program during the execution of main program.
+
+```md
+The practices that applies the logic in a branched manner in programming is Known as Branching or Condtionals.
+```
 
 In C++ Conditionals or Branching can be done using some statements:
 
@@ -57,6 +61,8 @@ else{
 ### General Explanation
 
 When using `if` statement, our programs first evaluates the condtion and then depending on the conditions you defined that whether the block of code inside `if` will be executed if the condtion is true or false, It will jump to the code instructions written inside the block. Otherwise It just skips the block and proceeds further.
+
+Since, `if` statement checks for only one thing that whether the memory block of a given condtion contains zero as a value at bit level or not. In case of any `non-zeroed` value the  `if` statement considers the condition as true otherwise false (when value is `0`)
 
 And in case of `if-else` code block witten inside `else` block will get executed.
 
