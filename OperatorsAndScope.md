@@ -109,14 +109,10 @@ This operator takes three operands, therefore it is known as a Ternary Operator.
 ***For Example***
 
 ```C++
-    # include <iostream>
-    int main()
-    {
-        int a = 3, b = 4;
-        // Conditional Operator
-        int result = (a < b) ? b : a;
-        std::cout << "The greatest number is " << result <<'\n';
-    }
+int a = 3, b = 4;
+// Conditional Operator
+int result = (a < b) ? b : a;
+std::cout << "The greatest number is " << result <<'\n';
 ```
 
 ---
@@ -172,33 +168,30 @@ As the name suggests, Global Variables can be accessed from any part of the prog
 - They can be accessed from any portion of the program.
 
 ```C++
-    // CPP program to illustrate
-    // usage of global variables
-    #include<iostream>
-
-    // global variable
-    int global = 5;
-
-    /** 
-     * global variable accessed
-     * within a function
-    */ 
-    void display()
-    {
-        std::cout<<global<<endl;
-    }
-
-    // main function
-    int main()
-    {
-        display();
-        /**
-         * changing the value of global
-         * variable from the main function
-        */
-        global = 10;
-        display();
-    }
+// CPP program to illustrate
+// usage of global variables
+#include<iostream>
+// global variable
+int global = 5;
+/** 
+ * global variable accessed
+ * within a function
+*/ 
+void display()
+{
+    std::cout<<global<<endl;
+}
+// main function
+int main()
+{
+    display();
+    /**
+     * changing the value of global
+     * variable from the main function
+    */
+    global = 10;
+    display();
+}
 ```
 
 In the above program. The variable `global` is declared at the top is global and stores the value `5` where as that declared within main function is local and stores a value `2`.
@@ -216,28 +209,24 @@ So in that case C++ provides the functionality called as `scope resolution opera
 ***Example:***
 
 ```C++
-    /**
-     *  C++ program to show that we can access a global
-     * variable using scope resolution operator :: when
-     * there is a local variable with same name
-    */
-    #include<iostream>
+/**
+ *  C++ program to show that we can access a global
+ * variable using scope resolution operator :: when
+ * there is a local variable with same name
+*/
+#include<iostream>
 
-    // Global x
-    int x = 0;
-
-    int main()
-    {
-    // Local x
-    int x = 10;
-
-    //Accessing Global variable
-    std::cout << "Value of global x is " << ::x;
-
-    //Accessing local variable
-    std::cout<< "\nValue of local x is " << x;
-
-    }
+// Global x
+int x = 0;
+int main()
+{
+// Local x
+int x = 10;
+//Accessing Global variable
+std::cout << "Value of global x is " << ::x;
+//Accessing local variable
+std::cout<< "\nValue of local x is " << x;
+}
 ```
 
 ***Output:***
