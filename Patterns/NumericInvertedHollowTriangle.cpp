@@ -6,7 +6,11 @@
  * 
  * Output:
  *     
- * 
+ * 1 2 3 4 5 
+ * 2     5 
+ * 3   5 
+ * 4 5 
+ * 5 
  * 
  */
 #include <iostream>
@@ -24,7 +28,7 @@ int main(){
         //For Coulmn
         for (int col = row; col < num; col++){
             if(row == 0 || col == row || row == num - 1 || col == num - 1)
-                std::cout <<col+1;
+                std::cout <<col+1 <<" ";
             else std::cout <<"  ";
         }
 
