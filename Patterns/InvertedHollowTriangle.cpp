@@ -1,5 +1,5 @@
 /**
- * @file Inverted-Triangle
+ * @file InvertedHollowTriangle.cpp
  * @author SK-here (trivedisaksham@gmail.com)
  * @brief A program to print Hollow Inverted Triangle Pattern
  * @version 0.1
