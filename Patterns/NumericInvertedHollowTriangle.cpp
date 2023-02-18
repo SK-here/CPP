@@ -1,7 +1,7 @@
 /**
  * @file Inverted-Triangle
  * @author SK-here (trivedisaksham@gmail.com)
- * @brief A program to print Hollow Inverted Triangle Pattern
+ * @brief A program to print Numeric Hollow Inverted Triangle Pattern
  * @version 0.1
  * 
  * Output:
