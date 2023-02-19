@@ -15,7 +15,12 @@
 using namespace std;
 
 int main(){
-    int num{5};
+
+    std::cout <<"Enter the number: ";
+    
+    int num{0};
+    
+    std::cin >>num;
 
     // Number of rows    
     for (int row = 0; row < num; row++){
@@ -28,15 +33,15 @@ int main(){
         // Right sided Triangle
         for (int col = 0 ; col <= row ; col++){
             
-        // If...                         Print This        else  This   
-            col == 0 || row == num - 1 ? cout  <<col+1 <<" " : cout <<"  ";
+        // If...                           Print This       else  This   
+            (col == 0 || row == num - 1) ? cout <<col+1 <<" " : cout <<"  ";
         }
 
         // Left Sided Tirangle
         for (int col = row; col >= 1 ; col--){
 
-        //  If...                                           Print This       else  This   
-            col == 1 || col == num - 1 || row == num - 1  ? cout  <<col <<" " : cout <<" " <<" ";
+        //  If...                                             Print This     else  This   
+            (col == 1 || col == num - 1 || row == num - 1)  ? cout <<col <<" " : cout <<" " <<" ";
         }
         
         //Go to Next Iteration
