@@ -4,7 +4,13 @@
  * @brief program to print pyramid using '*' 
  * @version 0.1
  * 
- * 
+ * Output:
+ *  
+ *   * 
+ *   * * 
+ *   * * * 
+ *   * * * * 
+ *   * * * * * 
  */
 
 # include <iostream>
