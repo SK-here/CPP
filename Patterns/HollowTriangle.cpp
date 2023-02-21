@@ -1,8 +1,24 @@
+/**
+ * @file HollowTriangle.cpp
+ * @author SK-here (trivedisaksham@gmail.com)
+ * @brief A program to print triangle
+ * @version 0.1
+ * 
+ *  Output:
+ *  
+ */
+
 #include <iostream>
 int main(){
-    int num{5};
 
-    for (int row = 0; row < num; row++){
+    std::cout <<"Enter the Number: ";
+
+    int num{0};
+
+    std::cin >>num;
+
+
+     for (int row = 0; row < num; row++){
         for (int col = row; col < num; col++){
             std::cout <<"  ";
         }
