@@ -1,3 +1,22 @@
+/**
+ * @file RightArrow.cpp
+ * @author SK-here (trivedisaksham@gmail.com)
+ * @brief A program to print Right Arrow Pattern
+ * @version 0.1
+ * 
+ * Output:
+ * 
+ *             # 
+ *             # # 
+ *             # # # 
+ *   # # # # # # # # # 
+ *   # # # # # # # # # # 
+ *   # # # # # # # # # # 
+ *   # # # # # # # # # 
+ *             # # # 
+ *             # # 
+ *             # 
+ */
 # include <iostream>
 int main(){
     
@@ -5,7 +24,9 @@ int main(){
     int num{0};
     std::cin >>num;
 
-    for (int row = 0; row < num ; row++){
+    std::cout <<'\n';
+
+   for (int row = 0; row < num ; row++){
         
         for (int col = 0 ; col < num; col++){
             row == num - 1 || row == num - 2 ? std::cout <<"# " : std::cout <<"  ";
