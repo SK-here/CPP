@@ -1,7 +1,7 @@
 /**
  * @file UpwardArrow.cpp
  * @author SK-here (trivedisaksham@gmail.com)
- * @brief A program to print Right Arrow Pattern
+ * @brief A program to print Upward Arrow Pattern
  * @version 0.1
  * 
  * Output:
