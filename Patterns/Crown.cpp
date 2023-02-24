@@ -100,7 +100,7 @@ int main(){
 
     for (int row = 0 ; row < num - 1 ; row++){
         for (int col = 0; col <= num * 4 - 2 ; col++){
-            col % 2 == 0 || row == 0 || row == num - 3 ? std::cout <<"#" <<" ": std::cout <<"  ";
+            col % 2 == 0 || row == 0 || row == num - 3 || row == num - 2 ? std::cout <<"#" <<" ": std::cout <<"  ";
         }
         std::cout <<'\n';
     }
