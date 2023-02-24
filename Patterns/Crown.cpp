@@ -26,7 +26,10 @@ int main(){
         }
         for (int col = row ; col < num ; col++){
             std::cout <<" ";
-        }   
+        } 
+
+        std::cout <<" ";
+
     // For Diamond
         for (int col = row; col < num; col++ ){
             std::cout <<" ";
@@ -42,7 +45,10 @@ int main(){
 
         for (int col = row ; col < num ; col++){
             std::cout <<" ";
-        }   
+        } 
+          
+        std::cout <<" ";
+
 
     // For Hollow Diamond
 
@@ -65,6 +71,8 @@ int main(){
             std::cout <<" ";
         }   
 
+        std::cout <<" ";
+
     // For Diamond - 2
 
         // For Diamond
@@ -83,7 +91,10 @@ int main(){
         for (int col = row ; col < num ; col++){
             std::cout <<" ";
         }   
-        
+ 
+        std::cout <<" ";
+
+       
         for (int col = row ; col < num ; col++){
             std::cout <<" ";
         }
@@ -99,8 +110,8 @@ int main(){
     // For Crown Bottom
 
     for (int row = 0 ; row < num - 1 ; row++){
-        for (int col = 0; col <= num * 4 - 2 ; col++){
-            col % 2 == 0 || row == 0 || row == num - 3 || row == num - 2 ? std::cout <<"#" <<" ": std::cout <<"  ";
+        for (int col = 0; col <= num * 4 ; col++){
+            col % 2 == 0 || row == 0 || row == num - 3 || row == num - 2 ? std::cout <<"#" <<"!": std::cout <<"  ";
         }
         std::cout <<'\n';
     }
