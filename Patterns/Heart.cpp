@@ -1,6 +1,6 @@
 /**
  * @file Heart.cpp
- * @author SK-here (you@domain.com)
+ * @author SK-here 
  * @brief A C++ Program to print Heart Pattern
  * @version 1.0
  * @copyright Copyright (c) 2023
