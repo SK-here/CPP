@@ -1,7 +1,7 @@
 /**
  * @file LeftArrow.cpp
  * @author SK-here (trivedisaksham@gmail.com)
- * @brief A program to print Left Arrow 
+ * @brief A program to print Downwards Direction Arrow 
  * @version 0.1
  * Output:
  *        # # # #       
