@@ -292,4 +292,46 @@ int main()
 
 Even though it looks like `#define MY_NAME “Alex”` is defined inside function `foo`, the preprocessor won’t notice, as it doesn’t understand C++ concepts like functions. Therefore, this program behaves identically to one where `#define MY_NAME “Alex”` was defined either before or immediately after function `foo`. For general readability, you’ll generally want to `#define` identifiers outside of functions.
 
+Consider the follwoing Example:
+
+***Function.cpp***
+
+```C++
+#include <iostream>
+
+void doSomething()
+{
+#ifdef PRINT
+    std::cout << "Printing!\n";
+#endif
+#ifndef PRINT
+    std::cout << "Not printing!\n";
+#endif
+}
+```
+
+***main.cpp***
+
+```C++
+void doSomething(); // forward declaration for function doSomething()
+
+#define PRINT
+
+int main()
+{
+    doSomething();
+
+    return 0;
+}
+```
+
+***Output:***
+
+```txt
+Not printing!
+```
+
+Even though `PRINT` was defined in 'main.cpp', that doesn’t have any impact on any of the code in 'function.cpp' (`PRINT` is only `#defined` from the point of definition to the end of main.cpp). This will be of consequence when we discuss header guards in a future lesson.
+
+
 .
